@@ -1,10 +1,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.ahorcado.MainActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_language"
+        android:icon="@drawable/icon_language"
+        android:title="@string/action_language"
+        app:iconTint="?attr/colorOnPrimary"
+        app:showAsAction="always" />
+
     <item
         android:id="@+id/action_settings"
-        android:orderInCategory="100"
+        android:icon="@drawable/icon_settings"
         android:title="@string/action_settings"
-        app:showAsAction="never" />
+        app:iconTint="?attr/colorOnPrimary"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/action_theme_light" android:title="@string/theme_light" />
+            <item android:id="@+id/action_theme_dark" android:title="@string/theme_dark" />
+        </menu>
+    </item>
 </menu>
