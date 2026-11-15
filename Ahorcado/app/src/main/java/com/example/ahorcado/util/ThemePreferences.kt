@@ -3,7 +3,7 @@ package com.example.ahorcado.util
 import android.content.Context
 import androidx.appcompat.app.AppCompatDelegate
 
-object ThemePreferences
+object ThemePreferences //helper class to save day night mode
 {
     private const val PREFS_NAME = "hangman_prefs"
     private const val KEY_NIGHT_MODE = "night_mode"

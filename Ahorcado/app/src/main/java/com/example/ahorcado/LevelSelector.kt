@@ -29,7 +29,7 @@ class LevelSelector : MainActivity()
     {
         Log.d("LevelSelector", "onCreate reached")
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_level_selector)
+        setContentView(R.layout.activity_level_selector) //load level selector
         setupToolbar()
         setupRecycler()
         Log.d("LevelSelector", "recycler ready, items = ${LevelBuilder.getLevels().size}")

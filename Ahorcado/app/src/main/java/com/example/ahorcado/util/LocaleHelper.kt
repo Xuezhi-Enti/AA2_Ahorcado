@@ -3,7 +3,7 @@ import android.content.Context
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.os.LocaleListCompat
 
-object LocaleHelper
+object LocaleHelper //helper class to save localization
 {
     private const val LANG_SPANISH = "es"
     private const val LANG_ENGLISH = "en"

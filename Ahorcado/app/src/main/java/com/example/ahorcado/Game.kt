@@ -16,7 +16,7 @@ class Game : MainActivity()
     private lateinit var resultOverlay: TextView
     private val keyButtons = mutableMapOf<Char, Button>()
 
-
+    /** Setting PNGs to change when fails **/
     private val hangmanStages = intArrayOf(
         R.drawable.hangman0, R.drawable.hangman1, R.drawable.hangman2,
         R.drawable.hangman3, R.drawable.hangman4, R.drawable.hangman5,
