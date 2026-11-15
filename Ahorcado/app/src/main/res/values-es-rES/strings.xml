@@ -7,9 +7,9 @@
     <string name="action_language">Idioma</string>
     <string name="theme_light">Modo claro</string>
     <string name="theme_dark">Modo oscuro</string>
-    <string name="level_number">Nivel 1</string>
-    <string name="level_word">Palabra: 5</string>
-    <string name="level_letters">Letras: 1</string>
+    <string name="level_number">Nivel %1$d</string>
+    <string name="level_word">Palabra: %1$s</string>
+    <string name="level_letters">Letras: %1$d</string>
     <string name="you_win">¡Has ganado!</string>
     <string name="you_lose">¡Has perdido!</string>
 
