@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //version español
+    <string name="app_name">Ahorcado</string>
+    <string name="splash_tap_to_continue">Haz tap para continuar</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_language">Idioma</string>
+    <string name="theme_light">Modo claro</string>
+    <string name="theme_dark">Modo oscuro</string>
+    <string name="level_number">Nivel %1$d</string>
+    <string name="level_word">Palabra: %1$s</string>
+    <string name="level_letters">Letras: %1$d</string>
+    <string name="you_win">¡Has ganado!</string>
+    <string name="you_lose">¡Has perdido!</string>
+
+</resources>
